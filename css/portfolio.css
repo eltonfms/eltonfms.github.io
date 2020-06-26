@@ -170,14 +170,26 @@ body {
 
 .info p {
   margin: 0;
-  font-size: .8rem;
+  font-size: .95rem;
 }
 
 .info p.tiny {
-  font-size: .5rem;
+  font-size: .7rem;
   line-height: 1.2;
   letter-spacing: .001rem;
   margin-top: 4px;
+}
+
+@media (min-width: 992px) {
+
+  .info p {
+    font-size: .8rem;
+  }
+
+  .info p.tiny {
+    font-size: .5rem;
+    line-height: 1.2;
+  }
 }
 
 .info a {
