@@ -103,6 +103,12 @@ body {
   letter-spacing: .01rem;
 }
 
+.text-tiny {
+  font-size: .5rem;
+  line-height: 1.2;
+  letter-spacing: .001rem;
+}
+
 .about {
   padding: 30px 0 20px;
 }
@@ -165,6 +171,13 @@ body {
 .info p {
   margin: 0;
   font-size: .8rem;
+}
+
+.info p.tiny {
+  font-size: .5rem;
+  line-height: 1.2;
+  letter-spacing: .001rem;
+  margin-top: 4px;
 }
 
 .info a {
